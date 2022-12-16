@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "WcprCKk7p7lZiRGODATmt/3ImQX0gGSuYLD/lRBF6QL0VwcqL0EAjCWttY0/s0aMQvd6OMOztNErfJsY+nggHg==",
+  "dgSpecHash": "Xc5+F9Vg+vBkOuteaE/o8FPWqrKtfFkkuS26G3u+KdQ9kWx9GucuWR6N2JxOHfyvwRPvvWH4rGo86I+yLRU0xA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vlnote15\\source\\repos\\JogoForcaWPF\\JogoForcaWPF.csproj",
+  "projectFilePath": "C:\\Users\\vlnote51\\Desktop\\Guilherme\\ProjetosPessoais\\WPF\\JogoForcaWPF\\JogoForcaWPF.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\vlnote15\\.nuget\\packages\\materialdesigncolors\\2.0.3\\materialdesigncolors.2.0.3.nupkg.sha512",
-    "C:\\Users\\vlnote15\\.nuget\\packages\\materialdesignthemes\\4.2.1\\materialdesignthemes.4.2.1.nupkg.sha512",
-    "C:\\Users\\vlnote15\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+    "C:\\Users\\vlnote51\\.nuget\\packages\\materialdesigncolors\\2.0.3\\materialdesigncolors.2.0.3.nupkg.sha512",
+    "C:\\Users\\vlnote51\\.nuget\\packages\\materialdesignthemes\\4.2.1\\materialdesignthemes.4.2.1.nupkg.sha512"
   ],
   "logs": []
 }

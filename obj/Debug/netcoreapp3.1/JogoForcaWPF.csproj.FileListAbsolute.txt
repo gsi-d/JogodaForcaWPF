@@ -19,3 +19,49 @@ C:\Users\vlnote15\source\repos\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF
 C:\Users\vlnote15\source\repos\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.dll
 C:\Users\vlnote15\source\repos\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.pdb
 C:\Users\vlnote15\source\repos\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.genruntimeconfig.cache
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\bin\Debug\netcoreapp3.1\JogoForcaWPF.exe
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\bin\Debug\netcoreapp3.1\JogoForcaWPF.deps.json
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\bin\Debug\netcoreapp3.1\JogoForcaWPF.runtimeconfig.json
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\bin\Debug\netcoreapp3.1\JogoForcaWPF.runtimeconfig.dev.json
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\bin\Debug\netcoreapp3.1\JogoForcaWPF.dll
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\bin\Debug\netcoreapp3.1\JogoForcaWPF.pdb
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.csproj.AssemblyReference.cache
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF_MarkupCompile.cache
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF_MarkupCompile.lref
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.g.resources
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.AssemblyInfoInputs.cache
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.AssemblyInfo.cs
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.csproj.CoreCompileInputs.cache
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.csproj.CopyComplete
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.dll
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.pdb
+C:\Users\vlnote51\Desktop\Guilherme\Projetos Pessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.genruntimeconfig.cache
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\bin\Debug\netcoreapp3.1\JogoForcaWPF.exe
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\bin\Debug\netcoreapp3.1\JogoForcaWPF.deps.json
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\bin\Debug\netcoreapp3.1\JogoForcaWPF.runtimeconfig.json
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\bin\Debug\netcoreapp3.1\JogoForcaWPF.runtimeconfig.dev.json
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\bin\Debug\netcoreapp3.1\JogoForcaWPF.dll
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\bin\Debug\netcoreapp3.1\JogoForcaWPF.pdb
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.csproj.AssemblyReference.cache
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF_MarkupCompile.cache
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF_MarkupCompile.lref
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.g.resources
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.AssemblyInfoInputs.cache
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.AssemblyInfo.cs
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.csproj.CoreCompileInputs.cache
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.csproj.CopyComplete
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.dll
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.pdb
+C:\Users\vlnote51\Desktop\Guilherme\ProjetosPessoais\WPF\JogoForcaWPF\obj\Debug\netcoreapp3.1\JogoForcaWPF.genruntimeconfig.cache

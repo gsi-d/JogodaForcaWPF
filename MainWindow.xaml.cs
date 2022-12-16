@@ -38,7 +38,8 @@ namespace JogoForcaWPF
                     {
                         ttbChave.Text += "_ ";
                         cont++;
-                        btnPalavra.Content = "Enviar resposta";
+                        btnPalavra.Visibility = Visibility.Collapsed;
+                        btnEnviarResposta.Visibility = Visibility.Visible;
                     }
                     else
                         ttbChave.Text += "  ";
@@ -48,23 +49,47 @@ namespace JogoForcaWPF
             {
                 if (ttbPalavra.Text == palavr)
                 {
-                    lblChances.FontSize = 15;
-                    lblChances.Content = "Parabéns,\n você acertou!";
+                    MessageBox.Show("Parabéns, você acertou!");
+                    btnPalavra.Visibility = Visibility.Visible;
+                    btnEnviarResposta.Visibility = Visibility.Collapsed;
+                    lblChances.Content = "12";
                     ttbChave.Text = ttbPalavra.Text;
                 }
                 else
                 {
-                    if(contador == 0)
-                    {
-                        int count = Convert.ToInt32(lblChances.Content);
-                        count--;
-                        lblChances.Content = count;
-                    }
-                    
+                    int count = Convert.ToInt32(lblChances.Content);
+                    count--;
+                    lblChances.Content = count;
+                    DesenhaCorpo(count);
                 }
             }
 
             palavr = ttbPalavra.Text;
+            ttbPalavra.Clear();
+
+        }
+
+        private void clickCriarPalavra(object sender, RoutedEventArgs e)
+        {
+
+            ttbChave.Clear();
+            for (int i = 0; i < ttbPalavra.Text.Length; i++)
+            {
+                if (ttbPalavra.Text[i].ToString() != " ")
+                {
+                    ttbChave.Text += "_ ";
+                    cont++;
+                    btnPalavra.Visibility = Visibility.Collapsed;
+                    btnEnviarResposta.Visibility = Visibility.Visible;
+                }
+                else
+                    ttbChave.Text += "  ";
+            }
+            ttbList.Text = "";
+            palavr = ttbPalavra.Text;
+            mensagemDerrota.Visibility = Visibility.Collapsed;
+            mensagemPalavra.Visibility = Visibility.Collapsed;
+            ResetaCorpo();
             ttbPalavra.Clear();
 
         }
@@ -96,43 +121,107 @@ namespace JogoForcaWPF
                 }
             }
 
-            if (contador == 0)
+            
+
+            bool letraRepetida = false;
+            foreach (var item in ttbList.Text)
             {
+                if (item.ToString() == letra)
+                    letraRepetida = true;
+            }
+            if (letraRepetida)
+                MessageBox.Show("A letra '" + letra + "' já foi informada.");
+            else
+            {
+                ttbList.Text += letra + " ";
+                ttbChave.Clear();
+
+                for (int i = 0; i < chav.Length; i++)
+                {
+                    ttbChave.Text += chav[i];
+                }
+
+                var textoChave = ttbChave.Text.Replace(" ", "");
+                if (textoChave == palavr)
+                {
+                    MessageBox.Show("Parabéns, você acertou!");
+                    btnPalavra.Visibility = Visibility.Visible;
+                    btnEnviarResposta.Visibility = Visibility.Collapsed;
+                    lblChances.Content = "12";
+                }
+
                 int count = Convert.ToInt32(lblChances.Content);
                 count--;
                 lblChances.Content = count;
+                DesenhaCorpo(count);
+
+                ttbLetras.Focus();
+
+                if (Convert.ToInt32(lblChances.Content) == 0)
+                {
+                    MessageBox.Show("Suas chances acabaram!");
+                    //lblChances.Content = "Suas chances\n acabaram!";
+                    ttbChave.Text = palavr;
+                    ttbChave.IsEnabled = false;
+                    ttbLetras.IsEnabled = false;
+                    ttbPalavra.IsEnabled = false;
+                    btnLetra.IsEnabled = false;
+                    btnPalavra.IsEnabled = false;
+                    mensagemDerrota.Visibility = Visibility.Visible;
+                    mensagemPalavra.Visibility = Visibility.Visible;
+                }
             }
 
-            ttbList.Text += letra + " ";
-            ttbChave.Clear();
+            
+        }
 
-            for (int i = 0; i < chav.Length; i++)
+        private void DesenhaCorpo(int count)
+        {
+            switch (count)
             {
-                ttbChave.Text += chav[i];
-            }
-
-            if (ttbChave.Text == palavr)
-            {
-                lblChances.Content = "Parabéns, você acertou!";
-            }
-
-            ttbLetras.Focus();
-
-            if (Convert.ToInt32(lblChances.Content) == 0)
-            {
-                lblChances.FontSize = 15;
-                lblChances.Content = "Suas chances\n acabaram!";
-                ttbChave.IsEnabled = false;
-                ttbLetras.IsEnabled = false;
-                ttbPalavra.IsEnabled = false;
-                btnLetra.IsEnabled = false;
-                btnPalavra.IsEnabled = false;
+                case 11:
+                    cabeca.Visibility = Visibility.Visible;
+                    break;
+                case 9:
+                    tronco.Visibility = Visibility.Visible;
+                    break;
+                case 8:
+                    break;
+                case 7:
+                    bracoDireito.Visibility = Visibility.Visible;
+                    break;
+                case 5:
+                    bracoEsquerdo.Visibility = Visibility.Visible;
+                    break;
+                case 4:
+                    pernaDireita.Visibility = Visibility.Visible;
+                    break;
+                case 3:
+                    pernaEsquerda.Visibility = Visibility.Visible;
+                    break;
+                case 2:
+                    olhoDireito.Visibility = Visibility.Visible;
+                    break;
+                case 1:
+                    olhoEsquerdo.Visibility = Visibility.Visible;
+                    break;
+                case 0:
+                    boca.Visibility = Visibility.Visible;
+                    break;
             }
         }
 
-        private void ttbChave_TextChanged(object sender, TextChangedEventArgs e)
+        private void ResetaCorpo()
         {
-
+            cabeca.Visibility = Visibility.Collapsed;
+            tronco.Visibility = Visibility.Collapsed;
+            bracoDireito.Visibility = Visibility.Collapsed;
+            bracoEsquerdo.Visibility = Visibility.Collapsed;
+            pernaDireita.Visibility = Visibility.Collapsed;
+            pernaEsquerda.Visibility = Visibility.Collapsed;
+            olhoDireito.Visibility = Visibility.Collapsed;
+            olhoEsquerdo.Visibility = Visibility.Collapsed;
+            boca.Visibility = Visibility.Collapsed;
         }
     }
 }

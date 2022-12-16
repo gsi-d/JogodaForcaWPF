@@ -91,27 +91,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vlnote15\\.nuget\\packages\\": {},
+    "C:\\Users\\vlnote51\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vlnote15\\source\\repos\\JogoForcaWPF\\JogoForcaWPF.csproj",
+      "projectUniqueName": "C:\\Users\\vlnote51\\Desktop\\Guilherme\\ProjetosPessoais\\WPF\\JogoForcaWPF\\JogoForcaWPF.csproj",
       "projectName": "JogoForcaWPF",
-      "projectPath": "C:\\Users\\vlnote15\\source\\repos\\JogoForcaWPF\\JogoForcaWPF.csproj",
-      "packagesPath": "C:\\Users\\vlnote15\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vlnote15\\source\\repos\\JogoForcaWPF\\obj\\",
+      "projectPath": "C:\\Users\\vlnote51\\Desktop\\Guilherme\\ProjetosPessoais\\WPF\\JogoForcaWPF\\JogoForcaWPF.csproj",
+      "packagesPath": "C:\\Users\\vlnote51\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vlnote51\\Desktop\\Guilherme\\ProjetosPessoais\\WPF\\JogoForcaWPF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\vlnote15\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vlnote51\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -154,12 +152,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.18, 3.1.18]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -168,7 +160,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
       }
     }
   }
